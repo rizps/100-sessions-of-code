@@ -51,3 +51,20 @@ print(False)
 # or convert to float and integer
 print(float('100'))
 print(int('100'))
+
+
+# ---
+# Mathematical operation in python
+# PEMDAS
+# Paranthesis -> (x)
+# Exponents -> x**2(x times x)
+# Multiplication or Division -> * or /
+# Addition or Substraction -> + or -
+
+# f-String for combining some different data types when print them up
+score = 80.9
+ranking = 4
+isPassed = True
+
+print(f"your score is {score}, your ranking is {ranking}, are you passed? {isPassed}")
+
