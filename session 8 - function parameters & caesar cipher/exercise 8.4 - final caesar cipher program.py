@@ -2,11 +2,14 @@
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 alphabet2 = alphabet*2
 # update the feature
+from art import logo
+
 def cipher2():
     repeat = True
     while repeat:
         shift_direction = 'right'
         text_after = ''
+        print(logo)
         cipher_direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").replace(" ", "").lower()
         if cipher_direction != 'encode' and cipher_direction != 'decode':  # to deal with incorrect input
             print('you better type the right word')
