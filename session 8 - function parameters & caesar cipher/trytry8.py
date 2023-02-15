@@ -29,3 +29,5 @@ encode = []
 print(len(alphabet))
 print(alphabet[0])
 print(alphabet[25])
+
+
